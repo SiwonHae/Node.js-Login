@@ -6,6 +6,7 @@
 4. app.listen() 모듈화 => bin/www.js
 5. package.json => npm init -y
 6. 폴더 구조 최적화
+    ```
     app
     ㄴ bin
     ㄴ src
@@ -13,6 +14,7 @@
       ㄴ views/home
     app.js
     package.json
+    ```
 7. 프론트에서 JS를 사용하기 위하여 public 폴더 연결
   app/src/public/js 생성
   app/src/public/css 생성
