@@ -15,9 +15,9 @@
     app.js
     package.json
     ```
-7. 프론트에서 JS를 사용하기 위하여 public 폴더 연결
-  app/src/public/js 생성
-  app/src/public/css 생성
+7. 프론트에서 JS를 사용하기 위하여 public 폴더 연결  
+  app/src/public/js 생성  
+  app/src/public/css 생성  
   app.js 파일 내
   ```javascript
   app.use(express.static(`${__dirname}/src/public`));
