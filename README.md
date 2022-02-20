@@ -23,4 +23,7 @@
   ```javascript
   app.use(express.static(`${__dirname}/src/public`));
   ```
-8. 로그인 기능 JS로 구현 => app/src/public/js/login.js
+8. 로그인 기능 JS로 구현 => app/src/public/js/login.js  
+9. 프론트에서 fetch를 이용해 서버로 데이터 보내기  
+10. 서버에서 로그인 API 만들기 => 프론트의 req 데이터 파싱(body-parser)  
+11. fetch에 then을 이용해 프론트에 서버에서 응답한 데이터를 다시 보내기  
