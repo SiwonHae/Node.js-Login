@@ -23,6 +23,8 @@
   ```javascript
   app.use(express.static(`${__dirname}/src/public`));
   ```
+  
+### 파일 시스템(fs) 이용
 8. 로그인 기능 JS로 구현 => app/src/public/js/login.js  
 9. 프론트에서 fetch를 이용해 서버로 데이터 보내기  
 10. 서버에서 로그인 API 만들기 => 프론트의 req 데이터 파싱(body-parser)  
@@ -34,3 +36,8 @@
     -1. 데이터 베이스 테이블을 따로 분리 => app/src/databases/users.json  
     -2. 파일 DB로 로그인 구현 => promise와 async await 이용  
     -3. 파일 DB로 회원가입 구현 => promise와 async await 이용  
+***
+### MySQL 이용
+16. 데이터 베이스 설정 코드 저장 => app/src/config/db.js => dotenv를 이용하여 환경변수 저장(암호화)
+17. 로그인 기능 구현
+18. 회원가입 기능 구현
