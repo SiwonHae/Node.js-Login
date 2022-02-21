@@ -37,7 +37,7 @@
     -2. 파일 DB로 로그인 구현 => promise와 async await 이용  
     -3. 파일 DB로 회원가입 구현 => promise와 async await 이용  
 ***
-### MySQL 이용
-16. 데이터 베이스 설정 코드 저장 => app/src/config/db.js => dotenv를 이용하여 환경변수 저장(암호화)
-17. 로그인 기능 구현
-18. 회원가입 기능 구현
+### MySQL 이용  
+16. 데이터 베이스 설정 코드 저장 => app/src/config/db.js => dotenv를 이용하여 환경변수 저장(암호화)  
+17. 로그인 기능 구현  
+18. 회원가입 기능 구현  
