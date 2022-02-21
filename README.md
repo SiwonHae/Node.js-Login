@@ -31,6 +31,6 @@
 13. User 모델을 따로 만들어서 UserStorage 관리하기 => app/src/mnodels/User.js  
 14. 회원가입 기능 JS로 구현 => app/src/public/js/register.js  
 15. 데이터를 파일로 구현 => fs(파일시스템) 이용  
-    -1. 데이터 베이스 테이블을 따로 분리 => app/src/databases/users.json
-    -2. 파일 DB로 로그인 구현 => promise와 async await 이용
-    -3. 파일 DB로 회원가입 구현 => promise와 async await 이용
+    -1. 데이터 베이스 테이블을 따로 분리 => app/src/databases/users.json  
+    -2. 파일 DB로 로그인 구현 => promise와 async await 이용  
+    -3. 파일 DB로 회원가입 구현 => promise와 async await 이용  
